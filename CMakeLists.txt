@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.23.1)
+cmake_minimum_required(VERSION 3.27.)
 
-project(redis-plus-plus)
+project(redispp)
 set(CMAKE_CXX_STANDARD 17)
 
 # 设置生成 compile_commands
@@ -19,7 +19,8 @@ add_compile_options(-Wall -Wextra -Wshadow -Wpedantic)
 # include_directories(${CMAKE_SOURCE_DIR}/src/include)
 
 # fmt的头文件
-# include_directories(${CMAKE_SOURCE_DIR}/third_party/fmt/include)
-# add_subdirectory(third_party/fmt)
+include_directories(${CMAKE_SOURCE_DIR}/third_party/fmt/include)
+add_subdirectory(third_party/fmt)
 
-add_executable(redis-plus-plus main.cpp)
+add_executable(redispp main.cpp)
+target_link_libraries(redispp PRIVATE fmt)
