@@ -16,7 +16,7 @@ set(CMAKE_BUILD_TYPE "Debug")
 add_compile_options(-Wall -Wextra -Wshadow -Wpedantic)
 
 # 加入本项目的头文件
-# include_directories(${CMAKE_SOURCE_DIR}/src/include)
+include_directories(${CMAKE_SOURCE_DIR}/src/include)
 
 # fmt的头文件
 include_directories(${CMAKE_SOURCE_DIR}/third_party/fmt/include)

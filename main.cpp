@@ -1,6 +1,5 @@
 #include <iostream>
+#include "common/log.h"
 #include "fmt/core.h"
 
-int main() {
-    std::cout << fmt::format("hello world") << std::endl;
-}
+int main() { DEBUG_LOG("hello"); }
