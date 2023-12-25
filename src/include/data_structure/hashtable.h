@@ -1,7 +1,7 @@
 /**
  * @file hashtable.h
  * @author lzc (liuzechen.coder@qq.com)
- * @brief hashtbale的头文件
+ * @brief hashtable的头文件
  * @version 0.1
  * @date 2023-12-24
  *
