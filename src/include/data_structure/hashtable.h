@@ -29,7 +29,7 @@ public:
 
 public:
 private:
-    HNode** m_table { nullptr };
+    HNode** m_table { nullptr }; //<q
     
     
 };

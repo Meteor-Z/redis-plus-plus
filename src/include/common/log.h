@@ -1,10 +1,9 @@
 /**
  * @file log.h
  * @author lzc (liuzechen.coder@qq.com)
- * @brief 非常建议的调试代码的工具
+ * @brief 非常简单的调试代码的工具
  * @version 0.1
  * @date 2023-12-25
- * 
  * @copyright Copyright (c) 2023
  * 
  */
