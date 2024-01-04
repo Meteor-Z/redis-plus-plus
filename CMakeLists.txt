@@ -25,3 +25,5 @@ add_subdirectory(third_party/fmt)
 
 add_executable(redispp main.cpp)
 target_link_libraries(redispp PRIVATE fmt)
+
+add_subdirectory(test/tcp_connection)

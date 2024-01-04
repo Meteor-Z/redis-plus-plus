@@ -1,5 +1,5 @@
 #include <iostream>
-#include "common/log.h"
 #include "fmt/core.h"
+#include "common/log.h"
 
 int main() { DEBUG_LOG("hello"); }
